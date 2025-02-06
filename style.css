@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+ul, ol, li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu{
+    display: flex;
+    color: white;
+    background-color: black;
+    justify-content: end;
+    gap: 38px;
+    padding: 14px 30px;
+}
+
+.menu li {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 4px 8px;
+    transition: .5s;
+}
+
+.menu li:hover{
+    background-color: red;
+}
+.menu img{
+    max-width: 34px;
+}
